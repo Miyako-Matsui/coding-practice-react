@@ -8,8 +8,9 @@ function Name() {
   ]
   return (
     <>
+      <p>List of Names</p>
       {users.map((user) => (
-        <div key={user.id}>{user.name}</div>
+        <li key={user.id}>{user.name}</li>
       ))}
     </>
   )

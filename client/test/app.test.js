@@ -6,5 +6,5 @@ import { render, screen } from '@testing-library/react'
 it('should display a header', () => {
   render(<App />)
 
-  expect(screen.getByText('App')).toBeInTheDocument()
+  expect(screen.getByText('React Practice')).toBeInTheDocument()
 })
