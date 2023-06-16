@@ -1,11 +1,12 @@
 import React from 'react'
+import Name from './Name'
 
 function App() {
   return (
-    <div>
+    <>
       <h1>App</h1>
-      <p>React development has begun!</p>
-    </div>
+      <Name />
+    </>
   )
 }
 
